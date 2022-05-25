@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=CreateAndPrintDFHijos
+comment1.params=
+comment1.target=void\ readFileAndCreateDF()
+comment1.text=\r\n\ El\ metodo\ readFileAndCreateDF\ se\ encarga\ de\ leer\ el\ archivo\ de\ tipo\ csv,\ en\ donde\ va\ a\ la\ primer\ linea,\ la\ lee\ y\ la\ guarda\ en\ el\ Arraylist\ headers\r\n\ y\ a\ partir\ ese\ punto\ los\ siguientes\ datos\ de\ tipo\ enteros\ los\ guarada\ en\ el\ arraylist\ de\ tipo\ enteros,\ row,\ para\ finalmente\ almazenarlos\ en\ el\ dfhijos.\r\n\ Se\ invoca\ despues\ de\ haber\ guardado\ todos\ los\ datos\ del\ archivo\ el\ metodo\ printDF\ y\ se\ le\ suma\ 1\ al\ contador,\ esto\ para\ que\ si\ el\ usuario\ desea\r\n\ volver\ a\ leer\ el\ archivo\ se\ cumpla\ el\ condicional\ a\ partir\ de\ eso\ se\ eliminaran\ todos\ los\ datos\ almacenados\ al\ haber\ invocado\ el\ metodo\ cleardf\ \r\n\ y\ se\ vuelven\ a\ escanear,\ esto\ para\ que\ de\ cara\ al\ usuario\ los\ datos\ no\ se\ repitan\ a\ la\ hora\ de\ imprimirlos.\r\n
+comment2.params=
+comment2.target=void\ printDF()
+comment2.text=\r\n\ Invoca\ al\ metodo\ que\ imprime\ los\ datos\ almacenados\ en\ el\ DF\r\n
+comment3.params=hijos
+comment3.target=int\ shortestChild(DataFrame)
+comment3.text=\r\n\ El\ metodo\ shortestChild\ posee\ 3\ atributos\ todos\ de\ tipo\ entero,\ el\ primero\ que\ marca\ el\ indice\r\n\ del\ ni\u00F1o\ con\ la\ menor\ estatura\ y\ los\ otros\ 2\ que\ marcan\ la\ posicion\ en\ el\ arreglo\ headers\ de\ la\ columna\ nombrada\ estatura\ y\ de\ la\ columna\ nombrada\r\n\ id\ respectivamente,\ internamente\ el\ ciclo\ compara\ y\ analiza\ todos\ los\ ni\u00F1os\ para\ retornar\ el\ id\ del\ ni\u00F1o\ con\ menor\ altura.\r\n\ @param\ hijos\:\ Dataframe\ que\ posee\ toda\ la\ informacion\ de\ los\ hijos\r\n
+numComments=4

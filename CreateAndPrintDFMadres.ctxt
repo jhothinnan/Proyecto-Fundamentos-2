@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=CreateAndPrintDFMadres
+comment1.params=
+comment1.target=void\ readFileAndCreateDF()
+comment1.text=\r\n\ El\ metodo\ readFileAndCreateDF\ se\ encarga\ de\ leer\ el\ archivo\ de\ tipo\ csv,\ en\ donde\ va\ a\ la\ primer\ linea,\ la\ lee\ y\ la\ guarda\ en\ el\ Arraylist\ headers\r\n\ y\ a\ partir\ ese\ punto\ los\ siguientes\ datos\ de\ tipo\ enteros\ los\ guarada\ en\ el\ arraylist\ de\ tipo\ enteros,\ row,\ para\ finalmente\ almazenarlos\ en\ el\ dfmadres.\r\n\ Se\ invoca\ despues\ de\ haber\ guardado\ todos\ los\ datos\ del\ archivo\ el\ metodo\ printDF\ y\ se\ le\ suma\ 1\ al\ contador,\ esto\ para\ que\ si\ el\ usuario\ desea\r\n\ volver\ a\ leer\ el\ archivo\ se\ cumpla\ el\ condicional\ a\ partir\ de\ eso\ se\ eliminaran\ todos\ los\ datos\ almacenados\ al\ haber\ invocado\ el\ metodo\ cleardf\ \r\n\ y\ se\ vuelven\ a\ escanear,\ esto\ para\ que\ de\ cara\ al\ usuario\ los\ datos\ no\ se\ repitan\ a\ la\ hora\ de\ imprimirlos.\r\n
+comment2.params=
+comment2.target=void\ printDF()
+comment2.text=\r\n\ Invoca\ al\ metodo\ que\ imprime\ los\ datos\ almacenados\ en\ el\ DF\r\n
+comment3.params=a
+comment3.target=int\ moreChildrenMother(DataFrame)
+comment3.text=\r\n\ El\ metodo\ moreChildrenMother\ posee\ de\ parametro\ un\ objeto\ de\ tipo\ DataFrame\ ademas\ posee\ como\ atributos\ 2\ arraylist\ de\ enteros\ uno\ que\ sirve\ para\ \r\n\ identificar\ cada\ una\ de\ las\ madres\ que\ existen\ y\ el\ otro\ que\ se\ usara\ a\ manera\ de\ contador,\ en\ adicion\ este\ metodo\ posee\ dos\ enteros,\ uno\ que\r\n\ indicara\ la\ posicion\ de\ la\ madre\ con\ mas\ hijos\ y\ el\ otro\ que\ marca\ la\ posicion\ en\ el\ arraylist\ headers\ de\ la\ columna\ llamada\ madres.\r\n\ Dentro\ del\ metodo\ se\ analiza\ si\ existe\ esa\ madre\ en\ el\ arraylist\ mothers\ y\ se\ suma\ 1\ a\ su\ aumulador\ en\ caso\ contrario\ se\ agrega\ la\ madre\ y\ su\r\n\ acumulador.\ Despues\ de\ eso\ se\ analiza\ la\ posicion\ que\ tenga\ el\ acumulador\ mas\ alto\ y\ finalmente\ retorna\ la\ madre\ con\ el\ mayor\ numero\ de\ hijos\r\n\ @param\ a\:\ DataFrame\ que\ contiene\ la\ informacion\ de\ los\ hijos\r\n
+numComments=4

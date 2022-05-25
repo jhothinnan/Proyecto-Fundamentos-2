@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=DataFrame
+comment0.text=\r\n\ En\ esta\ clase\ se\ guardan\ los\ datos\ de\ un\ DataFrame.\r\n\ \r\n\ @Anderson\ Sebastian\ Jimenez\ Mercado,\ Jhonnathan\ Stiven\ Ocampo\ Diaz\r\n\ @Mayo\ 2022\r\n
+comment1.params=headers
+comment1.target=DataFrame(java.util.ArrayList)
+comment1.text=\r\n\ Constructor.\r\n\ @param\ headers\:\ ArrayList\ con\ los\ nombres\ de\ las\ columnas\r\n
+comment2.params=f
+comment2.target=void\ addRow(java.util.ArrayList)
+comment2.text=\r\n\ Permite\ agregar\ una\ fila\ a\ los\ datos.\r\n\ @param\ f\:\ ArrayList\ con\ los\ enteros\ de\ una\ fila\r\n
+comment3.params=
+comment3.target=void\ cleardf()
+comment3.text=\r\n\ Elimina\ todos\ los\ datos\ del\ Df\r\n
+comment4.params=
+comment4.target=void\ printDF()
+comment4.text=\r\n\ Permite\ imprimir\ el\ DataFrame.\r\n\ Primero\ se\ imprimen\ los\ encabezados\ y\ luego\ cada\ fila\ de\ datos.\r\n
+numComments=5

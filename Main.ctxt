@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Main
+comment0.text=\r\nLa\ clase\ main\ se\ encarga\ de\ ofrecer\ de\ cara\ al\ usuaro\ una\ manera\ de\ ejecutar\ e\ interactuar\ con\ el\ programa;\ el\ usuario\ puede\ escoger\ entre\ 6\ opciones\r\ntales\ como\ leer\ y\ almacenar\ archivos\ de\ tipo\ .csv\ en\ arreglos\ dinamicos,\ imprimir\ los\ datos\ que\ almacenan\ estos\ arreglos\ y\ se\ desarrollaron\ 2\ \r\nfuncionalidades\:\ Buscar\ la\ madre\ (en\ el\ archivo\ madres.csv)\ que\ posea\ la\ mayor\ cantidad\ de\ hijos\ y\ buscar\ (en\ el\ archivo\ hijos.csv)\ \r\nel\ hijo\ mas\ peque\u00F1o\ en\ estatura.\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ El\ metodo\ main\ ejecuta\ el\ metodo\ mostrarMenu\r\n
+comment2.params=
+comment2.target=void\ mostrarMenu()
+comment2.text=\r\n\ El\ metodo\ mostrar\ menu\ inicia\ un\ ciclo\ infinito\ en\ donde\ a\ traves\ de\ datos\ de\ entrada\ por\ pantalla\ se\ elige\ entre\ las\ 6\ opciones\ disponibles.\ Al\ \r\n\ ingresar\ el\ numero\ 0\ el\ programa\ detiene\ su\ ejecucion.\r\n
+numComments=3
